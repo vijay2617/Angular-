@@ -1,0 +1,8 @@
+<div *ngIf="true">
+  <h1>Hello!</h1>
+</div>
+
+<!-- does not render -->
+<div *ngIf="false">
+  <h1>Hi!</h1>
+</div>
